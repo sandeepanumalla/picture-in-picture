@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+body {
+  margin: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: #2e2e2e;
+}
+
+#button_container {
+  border: 2px solid black;
+  width: auto;
+  border-radius: 6px;
+}
+
+#button_container #button {
+  margin: 0.5rem;
+  padding: 1.5rem;
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0px 20px 4px -19px white, 0px 10px 5px -9px black;
+          box-shadow: inset 0px 20px 4px -19px white, 0px 10px 5px -9px black;
+  font-family: "Raleway", sans-serif;
+  border: 2px solid black;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  background: -webkit-gradient(linear, left bottom, left top, from(#696969), to(#575757));
+  background: linear-gradient(to top, #696969, #575757);
+}
+
+#button_container #botton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#696969), to(#575757));
+  background: linear-gradient(to bottom, #696969, #575757);
+}
+
+#button_container #button:active {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+  background: -webkit-gradient(linear, left top, left bottom, from(#696969), to(#575757));
+  background: linear-gradient(to bottom, #696969, #575757);
+}
+/*# sourceMappingURL=style.css.map */
