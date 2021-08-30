@@ -15,4 +15,4 @@ async function request() {
   }
 }
 
-button.addEventListener("click", request());
+button.addEventListener("click", request);
